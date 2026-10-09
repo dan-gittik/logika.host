@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logika</title>
+<meta name="description" content="Schema-first logging for software maintained by AI coding agents. Coming soon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --paper: #faf5ee; --ink: #111111; --blue: #033aa7; --dot: #a01e1e; --grid: rgba(3, 58, 167, 0.07); --muted: #4a4a4a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #111111; --ink: #f5efe8; --blue: #7d9de0; --grid: rgba(125, 157, 224, 0.08); --muted: #b8b2aa; }
+  }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background-color: var(--paper);
+    background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 24px 24px;
+    color: var(--ink);
+    font-family: "IBM Plex Sans", ui-sans-serif, sans-serif;
+    display: grid;
+    place-items: center;
+    padding: 0 16px;
+  }
+  main { max-width: 40rem; text-align: center; }
+  .mark { position: relative; display: inline-block; font-family: "IBM Plex Mono", ui-monospace, monospace; font-weight: 700; font-size: clamp(2.75rem, 10vw, 4.5rem); letter-spacing: -0.02em; }
+  .mark .dot { position: absolute; top: -0.16em; left: calc((3.5 / 6) * 100%); width: 0.28em; height: 0.28em; transform: translateX(-50%); border-radius: 50%; background: var(--dot); }
+  h1 { font-weight: 500; font-size: clamp(1.1rem, 3.4vw, 1.4rem); line-height: 1.45; margin: 1.5rem 0 0; text-wrap: balance; }
+  p { color: var(--blue); font-family: "IBM Plex Mono", ui-monospace, monospace; margin: 1.75rem 0 0; font-size: 0.95rem; letter-spacing: 0.08em; text-transform: uppercase; }
+</style>
+</head>
+<body>
+<main>
+  <span class="mark">LOGIKA<span class="dot" aria-hidden="true"></span></span>
+  <h1>Schema-first logging for software maintained by AI coding agents.</h1>
+  <p>coming soon</p>
+</main>
+</body>
+</html>
